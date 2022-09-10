@@ -20,13 +20,17 @@ it will generate temporary password use that as a password
 how to activate virtual environment
 -------------------------------------
 pip install virtualenv
+
 python -m venv MailVenv
 
+
 MailVenv/Scripts/activate.bat        //In CMD
+
 MailVenv/Scripts/Activate.ps1        //In Powershel
 
 
 pip list
+
 pip freeze > requirements.txt       //to list modules installed in txt file
 
 deactivate                       // to deactivate venv
